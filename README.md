@@ -1,6 +1,22 @@
 
 First, created gencsv.sh file for generating random numbers as per the format.
 
+Script for Number generation
+
+#!/bin/bash
+
+RANDOM=$$
+
+for i in `seq 10`
+
+do
+
+echo $i, $RANDOM >> inputFile
+
+done
+
+
+
 Then executed docker run -d  --env CSVSERVER_BORDER=Orange -p 9393:9300   -v /home/ubuntu/csvserver/inputFile:/csvserver/inputdata infracloudio/csvserver:latest
 
 which is used to extract docker image if not already present, run the container in detached mode, give environment variables,do manual port mapping and mount volume into the container mentioned
