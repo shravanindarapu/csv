@@ -10,4 +10,4 @@ scrape_configs:
   - job_name: 'prometheus'
     scrape_interval:     5s
     static_configs:
-      - targets: ["174.129.173.10:9393"]
+      - targets: ["54.161.234.63:9393"]
