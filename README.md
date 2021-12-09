@@ -71,7 +71,7 @@ scrape_configs:
     scrape_interval:     5s
     static_configs:
       - targets: ["174.129.173.10:9393"]
-      
+     
 Screenshots of OUTPUT :
 
 <img width="1792" alt="image" src="https://user-images.githubusercontent.com/95849201/145370268-d44d4781-1806-47fa-8234-ddf4de1af33a.png">
